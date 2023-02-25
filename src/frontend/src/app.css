@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html,
+	body {
+		@apply h-full;
+	}
+}
+
+@layer utilities {
+	.white-stroke {
+		text-shadow: -3px -3px 0 white, 3px -3px 0 white, -3px 3px 0 white, 3px 3px 0 white,
+			-3px 0 0 white, 3px 0 0 white, 0 -3px 0 white, 0 3px 0 white;
+	}
+}

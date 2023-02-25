@@ -1,0 +1,18 @@
+{
+	"name": "game-project",
+	"version": "1.0.0",
+	"private": true,
+	"author": "ElCholoGamer",
+	"license": "MIT",
+	"workspaces": [
+		"src/**"
+	],
+	"engines": {
+		"node": ">18.0.0",
+		"pnpm": ">=7"
+	},
+	"scripts": {
+		"setup": "pnpm install",
+		"build-all": "pnpm -r build"
+	}
+}

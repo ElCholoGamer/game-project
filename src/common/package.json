@@ -1,0 +1,17 @@
+{
+	"name": "common",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"types": "src/index.ts",
+	"main": "dist/index.ts",
+	"scripts": {
+		"build": "rimraf -rf ./dist && tsc"
+	},
+	"author": "ElCholoGamer",
+	"license": "MIT",
+	"devDependencies": {
+		"rimraf": "^4.1.2",
+		"typescript": "^4.9.5"
+	}
+}

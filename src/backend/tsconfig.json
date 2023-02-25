@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"module": "ES2022",
+		"target": "ES2022",
+		"allowSyntheticDefaultImports": true,
+		"lib": ["ES2022"],
+		"strict": true,
+		"strictNullChecks": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"skipLibCheck": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"outDir": "dist"
+	},
+	"ts-node": {
+		"transpileOnly": true
+	}
+}
